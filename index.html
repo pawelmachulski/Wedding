@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Karolina & Pawel</title>
+    <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+<body>
+    <header class="main-header bgimg" id="home">
+        <div class="main-header-info">
+            <h1 class="main-title">Karolina & Pawel</h1>
+            <!-- <h2>Pobierają się</h2> -->
+            <h2><b>07.08.2020</b></h2>
+        </div>
+    </header>
+
+    <div class="about-main" id="us">
+            <div class="about-content">
+              <h1 class="aboutus-h1"><b> O nas</b></h1>
+              <img class="aboutus-img" src="./imgs/IMG_0060.JPG" style="width:100%;margin:32px 0">
+              <p><i>Pewnie wszyscy znacie nas, tak samo jak my Was. Za nami 3 lata znajomości. Postanowiliśmy się pobrać. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, consectetur sed animi modi sapiente repellat porro ipsam voluptate. Quia delectus accusantium tempora incidunt suscipit eius, unde nam magni deleniti aliquam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi recusandae minima dolorem rerum distinctio nulla voluptatum eos sint, at ducimus doloribus libero eligendi, error impedit odit? Debitis placeat dicta eius harum, est earum hic ab qui architecto vitae accusamus fugit numquam voluptas possimus nihil asperiores, totam minima esse suscipit nam a autem! Ut officiis possimus sapiente architecto fugit officia at modi, quidem neque cum tempore dolor nostrum.</i>
+              </p><br>
+              <p class="wedding-button-paragraph">
+                  <a href="#wedding" class="wedding-button">Informacje o ceromonii</a></p>
+            </div>
+    </div>
+
+    <div class="wedding-main" id="wedding">
+            <div class="wedding-content">
+              <h1 class="wedding-title"><b>UROCZYSTOŚĆ</b></h1>
+              <img class="sala-img" src="./imgs/IMG_1002.jpg" style="width:100%;margin:64px 0">
+              <div class="wedding-info">
+                <div class="wedding-info-when">
+                  <h2>Kiedy</h2>
+                  <p>Ceremonia zaślubin - 17:00</p>
+                  <p>Wesele - 18:30</p>
+                </div>
+                <div class="wedding-info-when">
+                  <h2>Gdzie</h2> 
+                  <p>Kościół w Jeruzalu</p>
+                  <p>Sala Weselna w Latowiczu</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <div class="confirmation-main" id="conf">
+        <h1>MAMY NADZIEJĘ, ŻE BĘDZIESZ!</h1>
+        <p class="response-paragraph">Prosimy o odpowiedź do 01.07.2020</p>
+        <p class="reposne-button-paragraph">
+            <button onclick="document.getElementById('id01').style.display='block'" class="response-button" style="padding:8px 60px">ODPOWIEDZ</button>
+        </p>
+    </div>
+    
+    <div id="id01" class="conf-form-main">
+            <div class="conf-form-main-content" style="padding:32px;max-width:600px">
+              <div class="conf-form-meat">
+                <h1 class="conf-form-title">CZY ZASZCZYCISZ NAS SWOJĄ OBECNOŚCIĄ?</h1>
+                <p>Bardzo na to liczymy.</p>
+                <form>
+                  <input class="conf-form-input" type="text" placeholder="Imię i nazwisko" name="name">
+                </form>
+                <p><i>Pozdrawiamy, Karolina i Pawel</i></p>
+                <div class="conf-form-buttons">
+                  <div class="conf-form-button1">
+                    <button onclick="document.getElementById('id01').style.display='none'" type="button" class="conf-form-button-green">Będę!</button>
+                  </div>
+                  <div class="conf-form-button1">
+                    <button onclick="document.getElementById('id01').style.display='none'" type="button" class="conf-form-button-red">Nie dam rady</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <div class="navbar-main">
+        <div class="navbar-content">
+            <a href="#home" style="width:22%" class="link">Home</a>
+            <a href="#us" style="width:22%" class="link">O nas</a>
+            <a href="#wedding" style="width:22%" class="link">Ceremonia</a>
+            <a href="#conf" style="width:22%" class="link">Potwierdź</a>
+        </div>
+    </div>
+</body>
+</html>
