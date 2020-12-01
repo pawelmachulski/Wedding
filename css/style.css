@@ -8,7 +8,7 @@ p {line-height: 2}
   background-position: center;
   background-size: cover;
 }
-.bgimg {background-image: url("./imgs/IMG_0185.JPG")}
+.bgimg {background-image: url("../imgs/IMG_0185.JPG")}
 img {
     vertical-align: middle;
 }
